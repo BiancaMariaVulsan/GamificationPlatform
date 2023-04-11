@@ -1,0 +1,62 @@
+table {
+  width: 70%;
+}
+
+.mat-mdc-form-field {
+  font-size: 14px;
+  width: 50%;
+  margin-left: 30px;
+}
+
+.leaderboard-container {
+  display: flex;
+  height: calc(100vh - 60px) ; /* Or any other defined height */
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 30px;
+}
+
+.leaderboard-wrapper {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.table-wrapper {
+  width: 80%;
+  border-radius: 10px;
+}
+
+.header-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-lbl {
+  background-color: #343434;
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  width: 300px;
+  padding: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.user-value {
+  font-size: 30px;
+  font-weight: 900;
+  color: #86EFAC;
+}
+
+.paginator-wrapper {
+  width: 80%;
+  background-color: white;
+}

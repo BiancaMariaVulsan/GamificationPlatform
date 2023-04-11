@@ -1,0 +1,20 @@
+<h1 mat-dialog-title>Create badge</h1>
+<div mat-dialog-content class="dialog-content">
+  <mat-form-field appearance="fill" class="inputBx">
+    <mat-label>Title</mat-label>
+    <input matInput [(ngModel)]="data.title">
+  </mat-form-field>
+  <mat-form-field appearance="fill" class="inputBx">
+    <mat-label>Description</mat-label>
+    <textarea matInput matInput [(ngModel)]="data.description"></textarea>
+  </mat-form-field>
+  <mat-form-field appearance="fill" class="inputBx">
+    <mat-label>Points</mat-label>
+    <input matInput [(ngModel)]="data.points">
+  </mat-form-field>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">Cancel</button>
+  <button mat-button [mat-dialog-close]="data" cdkFocusInitial>Ok</button>
+</div>
+

@@ -1,0 +1,19 @@
+<mat-card class="example-card">
+  <mat-card-header>
+    <mat-card-title-group>
+      <mat-card-title class="title">{{badge.title}}</mat-card-title>
+      <mat-card-subtitle class="subtitle">{{badge.requesterUsername}}</mat-card-subtitle>
+      <img mat-card-sm-image [src]="'./../../../../assets/medal.png'" >
+    </mat-card-title-group>
+  </mat-card-header>
+  <mat-card-content>
+    <!-- {{badge.description}} -->
+    <div class="points">{{badge.points}} Points</div>
+    <button mat-icon-button aria-label="Assign Badge" class="assign-btn" *ngIf="isAssignableByUser()" (click)="assignBadge()">
+      <mat-icon aria-hidden="false" aria-label="Assign Badge">check</mat-icon>
+    </button>
+    <button mat-icon-button aria-label="Assign Badge" class="assign-btn" *ngIf="isAssignableToUser()" (click)="takeOnBadge()">
+      <mat-icon aria-hidden="false" aria-label="Assign Badge">favorite</mat-icon>
+    </button>
+  </mat-card-content>
+</mat-card>

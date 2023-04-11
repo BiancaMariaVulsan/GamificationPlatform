@@ -1,0 +1,42 @@
+.example-card {
+  width: 250px;
+  height: 175px;
+  background-color: #343434;
+  margin: 5px;
+  color: white;
+  border-radius: 10px;
+}
+
+.title {
+  font-weight: 900;
+  color: #86EFAC;
+  font-size: 20px;
+}
+
+.subtitle {
+  color: #A3A3A3;
+  font-size: 14px;
+}
+
+.points {
+  color:#efe85d;
+  font-size: 12px;
+  position: absolute;
+  bottom: 5px;
+}
+
+.assign-btn {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  background-color: #86EFAC;
+  text-align: center;
+  color:#343434;
+  width: 40px;
+  height: 40px;
+  font-size: 10x;
+  border-radius: 50%;
+  cursor: pointer;
+  vertical-align: middle;
+  padding-bottom: 5px !important;
+}

@@ -1,0 +1,9 @@
+<app-navbar></app-navbar>
+<div class="home-container background-div">
+  <app-badges-box [badges]="inProgressBadges" [groupName]="'In Progress'"
+    [viewUrl]="'in-progress-badges'"></app-badges-box>
+  <app-badges-box [badges]="proposedBadges" [groupName]="'Proposed'"
+    [viewUrl]="'proposed-badges'"></app-badges-box>
+  <app-badges-box [badges]="ownedBadges" [groupName]="'Owned'"
+    [viewUrl]="'owned-badges'"></app-badges-box>
+</div>

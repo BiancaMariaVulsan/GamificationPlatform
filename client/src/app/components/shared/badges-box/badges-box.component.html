@@ -1,0 +1,13 @@
+<div class="group-container">
+  <div class="group-title">
+    {{groupName}}
+  </div>
+  <div class="badges-wrapper">
+    <div class="badges-container">
+      <app-badge *ngFor="let badge of badges.slice(0, 3)" [badge]="badge"></app-badge>
+      <a *ngIf="hasMoreAvailable()" class="view-more" [href]="viewUrl"> + {{notVisibleBadgesCount()}}</a>
+    </div>
+  </div>
+</div>
+
+

@@ -1,0 +1,110 @@
+.navbar {
+  background-color: black;
+  height: 60px;
+  padding-left: 130px;
+}
+
+.navbar-brand {
+  color: #86EFAC;
+  font-weight: bolder;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-item {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.login {
+  position: absolute;
+  right: 130px;
+}
+
+.register {
+  position: absolute;
+  right: 30px;
+}
+
+.header-logo {
+  position: absolute;
+}
+
+.circle-container {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background-color: #86EFAC;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.logo {
+  width: 130px;
+  height: 130px;
+  position: relative;
+  top: -140px;
+  z-index: 3;
+}
+
+.profile-group {
+  position: absolute;
+  right: 150px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.profile-picture {
+  width: 40px;
+  height: 40px;
+}
+
+.coins-picture {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+}
+
+.coins {
+  font-weight: 900;
+  color:#edef86;
+  text-decoration: none !important;
+  padding-right: 15px;
+  font-size: 22px;
+}
+
+.username {
+  font-weight: 900;
+  color:#86EFAC;
+  text-decoration: none;
+  padding-right: 15px;
+  font-size: 22px;
+}
+
+.signout-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.signout {
+  color:#c53b3b;
+  text-decoration: none;
+  vertical-align:middle;
+  position: absolute;
+  right: 50px;
+  font-weight: 700;
+}
+
+.create-badge {
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  vertical-align: middle;
+  padding-top: 14px;
+}

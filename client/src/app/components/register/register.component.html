@@ -1,0 +1,38 @@
+<div class="background-image">
+  <div class="form-container formBx">
+    <div class="form-header">
+      <div class="circle-container">
+      </div>
+      <div class="logo-container">
+        <img class="logo" src="./../../../assets/elephant_logo.png">
+      </div>
+    </div>
+    <div class="modal-container">
+      <h2>Sign Up</h2>
+      <form>
+        <div class="inputBx">
+          <div>Username</div>
+          <input type="text" name="username" [(ngModel)]="registerUser.username">
+        </div>
+        <div class="inputBx">
+          <div>Email</div>
+          <input type="text" name="email" [(ngModel)]="registerUser.email">
+        </div>
+        <div class="inputBx">
+          <div>Password</div>
+          <input type="password" name="password" [(ngModel)]="registerUser.password">
+        </div>
+        <div class="inputBx">
+          <div>Repeat Password</div>
+          <input type="password" name="password" [(ngModel)]="registerUser.confirmPassword">
+        </div>
+        <div class="inputBx">
+          <input class="submit-btn" type="submit" value="Sign Up" name="" (click)="onRegisterClicked()">
+        </div>
+        <div class="inputBx register">
+          <p>Already have an account? <a routerLink="/login" class="sign-up-btn">Log In</a></p>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,42 @@
+.badges-page-container {
+  height: calc(100vh - 60px) ; /* Or any other defined height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.badges-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+.badges-wrapper {
+  width: 160vh;
+  background-color: white;
+  display: block;
+  border-radius: 10px;
+}
+
+.group-title {
+  background-color: white;
+  width: fit-content;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-weight: 900;
+}
+
+.group-container {
+  display: flex;
+  flex-direction: column;
+}

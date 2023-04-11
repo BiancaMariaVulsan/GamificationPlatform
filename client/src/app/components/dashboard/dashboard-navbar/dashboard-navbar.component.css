@@ -1,0 +1,52 @@
+.navbar {
+  background-color: black;
+  height: 60px;
+  padding-left: 150px;
+}
+
+.navbar-brand {
+  color: #86EFAC;
+  font-weight: bolder;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-item {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.login {
+  position: absolute;
+  right: 130px;
+}
+
+.register {
+  position: absolute;
+  right: 30px;
+}
+
+.header-logo {
+  position: absolute;
+}
+
+.circle-container {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background-color: #86EFAC;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.logo {
+  width: 130px;
+  height: 130px;
+  position: relative;
+  top: -140px;
+  z-index: 3;
+}

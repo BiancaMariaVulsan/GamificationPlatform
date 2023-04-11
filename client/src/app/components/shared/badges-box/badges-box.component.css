@@ -1,0 +1,49 @@
+.badges-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.badges-wrapper {
+  width: 160vh;
+  background-color: white;
+  display: block;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.group-title {
+  background-color: white;
+  width:150px;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  font-size: 20px;
+}
+
+.group-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.view-more {
+  background-color: #343434;
+  border-radius: 50%;
+  font-size: 30px;
+  text-decoration: none;
+  padding: 10px;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  vertical-align: middle;
+  color: #86EFAC;
+  font-weight: 900;
+  margin-left: 20px;
+}

@@ -1,0 +1,13 @@
+<app-navbar></app-navbar>
+<div class="badges-page-container background-div">
+  <div class="group-container">
+    <div class="group-title">
+      {{pageTitle}}
+    </div>
+    <div class="badges-wrapper">
+      <div class="badges-container">
+        <app-badge *ngFor="let badge of badges" [badge]="badge"></app-badge>
+      </div>
+    </div>
+  </div>
+</div>
